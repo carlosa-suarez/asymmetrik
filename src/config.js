@@ -82,10 +82,10 @@ let fhirServerConfig = {
 	// },
 	//
 	profiles: {
-		[RESOURCES.ORGANIZATION]: {
-			service: './src/services/organization/organization.service.js',
-			versions: [ VERSIONS['3_0_1'], VERSIONS['1_0_2'] ]
-		},
+		// [RESOURCES.ORGANIZATION]: {
+		//	service: './src/services/organization/organization.service.js',
+		//	versions: [ VERSIONS['3_0_1'], VERSIONS['1_0_2'] ]
+		// },
 		[RESOURCES.PATIENT]: {
 			service: './src/services/patient/patient.service.js',
 			versions: [ VERSIONS['3_0_1'], VERSIONS['1_0_2'] ]
@@ -102,10 +102,10 @@ let fhirServerConfig = {
 		// 	service: './src/services/adverseevent/adverseevent.service.js',
 		// 	versions: [ VERSIONS['3_0_1'] ]
 		// },
-		// [RESOURCES.ALLERGYINTOLERANCE]: {
-		// 	service: './src/services/allergyintolerance/allergyintolerance.service.js',
-		// 	versions: [ VERSIONS['3_0_1'] ]
-		// },
+		[RESOURCES.ALLERGYINTOLERANCE]: {
+		 	service: './src/services/allergyintolerance/allergyintolerance.service.js',
+		 	versions: [ VERSIONS['3_0_1'] ]
+		},
 		// [RESOURCES.APPOINTMENT]: {
 		// 	service: './src/services/appointment/appointment.service.js',
 		// 	versions: [ VERSIONS['3_0_1'] ]
@@ -510,10 +510,10 @@ let fhirServerConfig = {
 		// 	service: './src/services/subscription/subscription.service.js',
 		// 	versions: [ VERSIONS['3_0_1'] ]
 		// },
-		// [RESOURCES.SUBSTANCE]: {
-		// 	service: './src/services/substance/substance.service.js',
-		// 	versions: [ VERSIONS['3_0_1'] ]
-		// },
+		[RESOURCES.SUBSTANCE]: {
+		 	service: './src/services/substance/substance.service.js',
+		 	versions: [ VERSIONS['3_0_1'] ]
+		},
 		// [RESOURCES.SUPPLYDELIVERY]: {
 		// 	service: './src/services/supplydelivery/supplydelivery.service.js',
 		// 	versions: [ VERSIONS['3_0_1'] ]
@@ -534,10 +534,10 @@ let fhirServerConfig = {
 		// 	service: './src/services/testscript/testscript.service.js',
 		// 	versions: [ VERSIONS['3_0_1'] ]
 		// },
-		// [RESOURCES.VALUESET]: {
-		// 	service: './src/services/valueset/valueset.service.js',
-		// 	versions: [ VERSIONS['3_0_1'] ]
-		// },
+		[RESOURCES.VALUESET]: {
+		 	service: './src/services/valueset/valueset.service.js',
+		 	versions: [ VERSIONS['3_0_1'] ]
+		},
 		// [RESOURCES.VISIONPRESCRIPTION]: {
 		// 	service: './src/services/visionprescription/visionprescription.service.js',
 		// 	versions: [ VERSIONS['3_0_1'] ]

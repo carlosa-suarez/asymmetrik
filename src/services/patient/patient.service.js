@@ -21,7 +21,6 @@ let getMeta = (base_version) => {
 	return require(FHIRServer.resolveFromVersion(base_version, 'Meta'));};
 
 let buildStu3SearchQuery = (args) =>	 {
-
 	// Common search params
 	let { _content, _format, _id, _lastUpdated, _profile, _query, _security, _tag } = args;
 
